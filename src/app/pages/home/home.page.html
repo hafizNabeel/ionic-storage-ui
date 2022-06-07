@@ -1,0 +1,131 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button>
+        <ion-icon name="apps"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button class="bordered" fill="solid">
+        <ion-icon color="custom" name="notifications"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+  <ion-item>
+    <ion-avatar slot="start">
+      <img
+        src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y"
+      />
+    </ion-avatar>
+    <ion-label lines="none">
+      <p>Hello</p>
+      <h3>Ionic Ui</h3>
+    </ion-label>
+  </ion-item>
+</ion-header>
+
+<ion-content>
+  <div class="slides">
+    <ion-slides [options]="slideOpts">
+      <ion-slide>
+        <ion-card>
+          <ion-card-header>
+            <div class="main">
+              <img
+                src="https://cfl.dropboxstatic.com/static/images/logo_catalog/twitter-card-glyph_m1%402x.png"
+              />
+            </div>
+            <img class="files" src="https://i.ibb.co/jD8ypLq/files.jpg" />
+          </ion-card-header>
+          <ion-card-content class="ion-text-left">
+            <ion-card-title class="ion-margin-bottom">
+              Drop Box
+            </ion-card-title>
+            <ion-card-subtitle class="ion-text-right">
+              10/50 GB
+            </ion-card-subtitle>
+            <ion-progress-bar color="primary" value="0.5"></ion-progress-bar>
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+
+      <!-- slides 2-->
+      <ion-slide>
+        <ion-card>
+          <ion-card-header>
+            <div class="main">
+              <img
+                src="https://cfl.dropboxstatic.com/static/images/logo_catalog/twitter-card-glyph_m1%402x.png"
+              />
+            </div>
+            <img class="files" src="https://i.ibb.co/jD8ypLq/files.jpg" />
+          </ion-card-header>
+          <ion-card-content class="ion-text-left">
+            <ion-card-title class="ion-margin-bottom"> Google </ion-card-title>
+            <ion-card-subtitle class="ion-text-right">
+              10/50 GB
+            </ion-card-subtitle>
+            <ion-progress-bar color="warning" value="0.5"></ion-progress-bar>
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+    </ion-slides>
+  </div>
+
+  <div class="container">
+    <h2>Latest filee</h2>
+    <ion-item lines="none">
+      <ion-grid>
+        <ion-row class="ion-align-item-center">
+          <ion-col size="3">
+            <ion-button fill="clear">
+              <ion-icon
+                color="light"
+                slot="icon-only"
+                name="document"
+              ></ion-icon>
+            </ion-button>
+          </ion-col>
+          <ion-col size="7">
+            <ion-label>
+              <h4>Project pdf</h4>
+              <h6>Google Drive/Docs</h6>
+            </ion-label>
+          </ion-col>
+          <ion-col size="2">
+            <ion-button fill="clear">
+              <ion-icon color="light" name="ellipsis-vertical"></ion-icon>
+            </ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-grid>
+        <ion-row class="ion-align-item-center">
+          <ion-col size="3">
+            <ion-button fill="clear">
+              <ion-icon
+                color="light"
+                slot="icon-only"
+                name="document"
+              ></ion-icon>
+            </ion-button>
+          </ion-col>
+          <ion-col size="7">
+            <ion-label>
+              <h4>Project pdf</h4>
+              <h6>Google Drive/Docs</h6>
+            </ion-label>
+          </ion-col>
+          <ion-col size="2">
+            <ion-button fill="clear">
+              <ion-icon color="light" name="ellipsis-vertical"></ion-icon>
+            </ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+  </div>
+</ion-content>
